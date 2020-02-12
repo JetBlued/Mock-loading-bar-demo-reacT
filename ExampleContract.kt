@@ -46,3 +46,18 @@ interface ExampleContract {
     )
 
     @ContractAction
+    fun addPrescription(
+            @InvokeParam(name="name") name: String,
+            @InvokeParam(name="end_timestamp") end_timestamp: Long,
+            @InvokeParam(name="drug_name") drug_name: String,
+            @InvokeParam(name="patient_key") patient_key: String
+    )
+
+    @ContractAction
+    fun checkPrescription(
+            @InvokeParam(name="patient_key") patient_key: String,
+            @InvokeParam(name="drug_name") drug_name: String
+    )
+
+    @ContractAction
+    fun disableLicense(
