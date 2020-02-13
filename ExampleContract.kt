@@ -61,3 +61,8 @@ interface ExampleContract {
 
     @ContractAction
     fun disableLicense(
+            @InvokeParam(name="type") type: String,
+            @InvokeParam(name="value") value: Boolean,
+            @InvokeParam(name="key") key: String
+    )
+}
