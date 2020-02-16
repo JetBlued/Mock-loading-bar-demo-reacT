@@ -1,1 +1,1 @@
-package 
+package com.wavesplatform.
