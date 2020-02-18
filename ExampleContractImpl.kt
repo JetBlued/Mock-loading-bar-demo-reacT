@@ -1,1 +1,1 @@
-package com.wavesplatform.
+package com.wavesplatform.we.app.example.contra
