@@ -1,1 +1,3 @@
-package com.wavesplatform.we.app.example.contra
+package com.wavesplatform.we.app.example.contract.impl
+
+impor
