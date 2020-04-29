@@ -5,4 +5,5 @@ import com.wavesplatform.vst.contract.mapping.Mapping
 import com.wavesplatform.vst.contract.spring.annotation.ContractHandlerBean
 import com.wavesplatform.vst.contract.state.ContractState
 import com.wavesplatform.vst.contract.state.setValue
-import com.wavesplatform.vst.contract.state.get
+import com.wavesplatform.vst.contract.state.getValue
+import com
