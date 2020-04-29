@@ -6,4 +6,4 @@ import com.wavesplatform.vst.contract.spring.annotation.ContractHandlerBean
 import com.wavesplatform.vst.contract.state.ContractState
 import com.wavesplatform.vst.contract.state.setValue
 import com.wavesplatform.vst.contract.state.getValue
-import com
+import com.wavesplatform.we.
