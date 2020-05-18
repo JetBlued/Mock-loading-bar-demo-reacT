@@ -7,4 +7,5 @@ import com.wavesplatform.vst.contract.state.ContractState
 import com.wavesplatform.vst.contract.state.setValue
 import com.wavesplatform.vst.contract.state.getValue
 import com.wavesplatform.we.app.example.contract.ExampleContract
-import org.springframework.aop.aspectj.AspectJPrecedenc
+import org.springframework.aop.aspectj.AspectJPrecedenceInformation
+import 
