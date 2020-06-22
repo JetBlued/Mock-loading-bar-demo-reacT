@@ -14,4 +14,5 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 
-@ContractHand
+@ContractHandlerBean
+class Ex
