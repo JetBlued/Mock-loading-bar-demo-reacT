@@ -15,4 +15,5 @@ import kotlin.collections.ArrayList
 
 
 @ContractHandlerBean
-class Ex
+class ExampleContractImpl(
+   
