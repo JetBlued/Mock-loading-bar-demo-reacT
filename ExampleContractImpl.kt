@@ -17,4 +17,5 @@ import kotlin.collections.ArrayList
 @ContractHandlerBean
 class ExampleContractImpl(
     state: ContractState,
-    private v
+    private val call: ContractCall
+) : Exam
