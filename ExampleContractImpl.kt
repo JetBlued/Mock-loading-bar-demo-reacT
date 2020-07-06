@@ -18,4 +18,4 @@ import kotlin.collections.ArrayList
 class ExampleContractImpl(
     state: ContractState,
     private val call: ContractCall
-) : Exam
+) : ExampleContract 
