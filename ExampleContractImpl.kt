@@ -20,4 +20,4 @@ class ExampleContractImpl(
     private val call: ContractCall
 ) : ExampleContract {
 
-    private var crea
+    private var create: Boolean
