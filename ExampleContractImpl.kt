@@ -21,4 +21,4 @@ class ExampleContractImpl(
 ) : ExampleContract {
 
     private var create: Boolean? by state
-    private var
+    private var invoke: Bool
