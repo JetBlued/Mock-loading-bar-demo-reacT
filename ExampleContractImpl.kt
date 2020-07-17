@@ -23,4 +23,4 @@ class ExampleContractImpl(
     private var create: Boolean? by state
     private var invoke: Boolean? by state
 
-  
+    private val doc
