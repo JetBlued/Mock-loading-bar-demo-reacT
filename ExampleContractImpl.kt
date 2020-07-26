@@ -24,4 +24,5 @@ class ExampleContractImpl(
     private var invoke: Boolean? by state
 
     private val doctors: Mapping<Doctor> by state
-    private val pharmacies: Mapping<Pharm
+    private val pharmacies: Mapping<Pharmacy> by state
+ 
