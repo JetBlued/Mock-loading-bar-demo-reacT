@@ -27,4 +27,4 @@ class ExampleContractImpl(
     private val pharmacies: Mapping<Pharmacy> by state
     private val stories: Mapping<History> by state
     private val drugs: Mapping<Drug> by state
-    priva
+    private val drugs_forbidden
