@@ -29,4 +29,5 @@ class ExampleContractImpl(
     private val drugs: Mapping<Drug> by state
     private val drugs_forbidden: Mapping<Boolean> by state
 
-    override fun create(
+    override fun create() {
+        cr
