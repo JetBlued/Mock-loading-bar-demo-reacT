@@ -30,4 +30,5 @@ class ExampleContractImpl(
     private val drugs_forbidden: Mapping<Boolean> by state
 
     override fun create() {
-        cr
+        create = true
+     
