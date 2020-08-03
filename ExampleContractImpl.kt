@@ -31,4 +31,4 @@ class ExampleContractImpl(
 
     override fun create() {
         create = true
-     
+        val doct
