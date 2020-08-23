@@ -36,4 +36,4 @@ class ExampleContractImpl(
                 information = "Петров Петр Петрович",
                 license = true
         )
-      
+        doctors.put(doc
