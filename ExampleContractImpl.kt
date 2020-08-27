@@ -38,4 +38,4 @@ class ExampleContractImpl(
         )
         doctors.put(doctor.doctor_key, doctor)
 
-        val drug
+        val drugList=ArrayList<Str
