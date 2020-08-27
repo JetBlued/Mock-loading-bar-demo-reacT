@@ -37,3 +37,5 @@ class ExampleContractImpl(
                 license = true
         )
         doctors.put(doctor.doctor_key, doctor)
+
+        val drug
