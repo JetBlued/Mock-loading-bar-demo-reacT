@@ -40,3 +40,4 @@ class ExampleContractImpl(
 
         val drugList=ArrayList<String>()
         val pharmacy = Pharmacy(
+                ph
