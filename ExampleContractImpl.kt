@@ -40,4 +40,4 @@ class ExampleContractImpl(
 
         val drugList=ArrayList<String>()
         val pharmacy = Pharmacy(
-                pharmacy_key = "3QZdm3KxwX4GRdrdGLxeZ4
+                pharmacy_key = "3QZdm3KxwX4GRdrdGLxeZ4xmEyrv5rEXCqF
