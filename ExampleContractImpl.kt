@@ -42,4 +42,5 @@ class ExampleContractImpl(
         val pharmacy = Pharmacy(
                 pharmacy_key = "3QZdm3KxwX4GRdrdGLxeZ4xmEyrv5rEXCqF",
                 drug_list = drugList,
-                star_license = Timestamp(152
+                star_license = Timestamp(1522448019000),
+       
