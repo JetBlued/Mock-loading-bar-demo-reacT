@@ -44,3 +44,5 @@ class ExampleContractImpl(
                 drug_list = drugList,
                 star_license = Timestamp(1522448019000),
                 end_license = Timestamp(1932675219000)
+        )
+      
