@@ -46,3 +46,5 @@ class ExampleContractImpl(
                 end_license = Timestamp(1932675219000)
         )
         pharmacies.put(pharmacy.pharmacy_key, pharmacy)
+
+        drugs_forbidd
