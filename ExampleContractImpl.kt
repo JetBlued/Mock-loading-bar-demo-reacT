@@ -47,4 +47,4 @@ class ExampleContractImpl(
         )
         pharmacies.put(pharmacy.pharmacy_key, pharmacy)
 
-        drugs_forbidd
+        drugs_forbidden.put("Прегабалин", false)
