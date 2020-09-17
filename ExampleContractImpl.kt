@@ -48,3 +48,6 @@ class ExampleContractImpl(
         pharmacies.put(pharmacy.pharmacy_key, pharmacy)
 
         drugs_forbidden.put("Прегабалин", false)
+    }
+
+    over
