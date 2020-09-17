@@ -50,4 +50,4 @@ class ExampleContractImpl(
         drugs_forbidden.put("Прегабалин", false)
     }
 
-    override fun addD
+    override fun addDrugs(drug_name: St
