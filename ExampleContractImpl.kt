@@ -51,4 +51,4 @@ class ExampleContractImpl(
     }
 
     override fun addDrugs(drug_name: String, information: String) {
-        require(pharmacies.
+        require(pharmacies.has(call.sender)
