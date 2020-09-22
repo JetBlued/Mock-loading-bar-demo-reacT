@@ -52,4 +52,6 @@ class ExampleContractImpl(
 
     override fun addDrugs(drug_name: String, information: String) {
         require(pharmacies.has(call.sender)) {
-            "ONLY_PHARMACIES_CAN_ADD_DRU
+            "ONLY_PHARMACIES_CAN_ADD_DRUGS"
+        }
+       
