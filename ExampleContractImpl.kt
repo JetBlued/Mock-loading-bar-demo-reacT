@@ -54,4 +54,4 @@ class ExampleContractImpl(
         require(pharmacies.has(call.sender)) {
             "ONLY_PHARMACIES_CAN_ADD_DRUGS"
         }
-        require(!pharmacies[call.sender].d
+        require(!pharmacies[call.sender].drug_list.contai
