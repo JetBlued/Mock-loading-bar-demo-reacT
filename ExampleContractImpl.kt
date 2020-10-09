@@ -55,4 +55,5 @@ class ExampleContractImpl(
             "ONLY_PHARMACIES_CAN_ADD_DRUGS"
         }
         require(!pharmacies[call.sender].drug_list.contains(drug_name)) {
-            "DRUG_HAS_AL
+            "DRUG_HAS_ALREADY_ADDED"
+   
