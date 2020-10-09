@@ -56,4 +56,4 @@ class ExampleContractImpl(
         }
         require(!pharmacies[call.sender].drug_list.contains(drug_name)) {
             "DRUG_HAS_ALREADY_ADDED"
-   
+        
