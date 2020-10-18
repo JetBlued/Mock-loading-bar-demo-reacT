@@ -58,4 +58,4 @@ class ExampleContractImpl(
             "DRUG_HAS_ALREADY_ADDED"
         }
         require(!drugs_forbidden.has(drug_name)) {
-            "
+            "THIS_DRUG_
