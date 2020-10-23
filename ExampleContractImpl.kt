@@ -58,4 +58,5 @@ class ExampleContractImpl(
             "DRUG_HAS_ALREADY_ADDED"
         }
         require(!drugs_forbidden.has(drug_name)) {
-            "THIS_DRUG_IF_FORBIDDEN_BY_REGULAT
+            "THIS_DRUG_IF_FORBIDDEN_BY_REGULATOR"
+        }
