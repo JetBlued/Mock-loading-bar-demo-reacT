@@ -60,4 +60,4 @@ class ExampleContractImpl(
         require(!drugs_forbidden.has(drug_name)) {
             "THIS_DRUG_IF_FORBIDDEN_BY_REGULATOR"
         }
-        drugs.put(drug_name, Drug(name = drug_name, inf
+        drugs.put(drug_name, Drug(name = drug_name, information = i
