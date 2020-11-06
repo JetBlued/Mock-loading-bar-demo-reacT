@@ -61,4 +61,4 @@ class ExampleContractImpl(
             "THIS_DRUG_IF_FORBIDDEN_BY_REGULATOR"
         }
         drugs.put(drug_name, Drug(name = drug_name, information = information, license = true))
-        pharmacies[cal
+        pharmacies[call.sender].drug_list.
