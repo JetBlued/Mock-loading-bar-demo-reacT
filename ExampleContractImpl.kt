@@ -63,4 +63,4 @@ class ExampleContractImpl(
         drugs.put(drug_name, Drug(name = drug_name, information = information, license = true))
         pharmacies[call.sender].drug_list.add(drug_name)
     }
-    ove
+    override fun invoke()
