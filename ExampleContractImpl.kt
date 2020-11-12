@@ -65,4 +65,6 @@ class ExampleContractImpl(
     }
     override fun invoke() {
         invoke = true
-  
+    }
+
+    override
