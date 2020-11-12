@@ -64,4 +64,5 @@ class ExampleContractImpl(
         pharmacies[call.sender].drug_list.add(drug_name)
     }
     override fun invoke() {
-        invoke 
+        invoke = true
+  
