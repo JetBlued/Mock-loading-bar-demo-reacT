@@ -67,4 +67,4 @@ class ExampleContractImpl(
         invoke = true
     }
 
-    override
+    override fun addProt
