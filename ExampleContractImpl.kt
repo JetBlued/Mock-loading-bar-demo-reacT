@@ -67,4 +67,4 @@ class ExampleContractImpl(
         invoke = true
     }
 
-    override fun addProt
+    override fun addProtocol(diagnosis: St
