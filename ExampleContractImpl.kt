@@ -68,4 +68,5 @@ class ExampleContractImpl(
     }
 
     override fun addProtocol(diagnosis: String, complaints: String, anamnesis: String, treatment: String, recommendations: String, prognosis: String, patient_key: String) {
-        require(doctors.has(call.
+        require(doctors.has(call.sender)) {
+       
