@@ -67,4 +67,5 @@ class ExampleContractImpl(
         invoke = true
     }
 
-    override fun addProtocol(diagnosis: String, complaints: String, anamnesis: String, treatment: String, recommendations: String, prognosis: String, patient_key: Strin
+    override fun addProtocol(diagnosis: String, complaints: String, anamnesis: String, treatment: String, recommendations: String, prognosis: String, patient_key: String) {
+        require(
