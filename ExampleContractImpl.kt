@@ -67,4 +67,4 @@ class ExampleContractImpl(
         invoke = true
     }
 
-    override fun addProtocol(diagnosis: String, complaints: String, anamnesis: String, treatme
+    override fun addProtocol(diagnosis: String, complaints: String, anamnesis: String, treatment: String, recommendatio
