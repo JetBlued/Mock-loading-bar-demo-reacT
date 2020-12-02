@@ -70,3 +70,5 @@ class ExampleContractImpl(
     override fun addProtocol(diagnosis: String, complaints: String, anamnesis: String, treatment: String, recommendations: String, prognosis: String, patient_key: String) {
         require(doctors.has(call.sender)) {
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
+        }
+        va
