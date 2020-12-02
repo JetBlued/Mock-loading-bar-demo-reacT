@@ -71,4 +71,4 @@ class ExampleContractImpl(
         require(doctors.has(call.sender)) {
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
-        va
+        val protocol = Protoco
