@@ -72,4 +72,4 @@ class ExampleContractImpl(
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
         val protocol = Protocol(
-               
+                diagnosis=diagnos
