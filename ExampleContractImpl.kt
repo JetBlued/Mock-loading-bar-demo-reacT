@@ -73,4 +73,4 @@ class ExampleContractImpl(
         }
         val protocol = Protocol(
                 diagnosis=diagnosis,
-             
+                complaints = co
