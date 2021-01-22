@@ -77,4 +77,5 @@ class ExampleContractImpl(
                 anamnesis = anamnesis,
                 treatment = treatment,
                 recommendations = recommendations,
-                progno
+                prognosis = prognosis,
+  
