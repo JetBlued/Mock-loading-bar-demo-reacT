@@ -76,3 +76,4 @@ class ExampleContractImpl(
                 complaints = complaints,
                 anamnesis = anamnesis,
                 treatment = treatment,
+              
