@@ -75,4 +75,4 @@ class ExampleContractImpl(
                 diagnosis=diagnosis,
                 complaints = complaints,
                 anamnesis = anamnesis,
-      
+                treatment 
