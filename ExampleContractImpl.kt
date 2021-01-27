@@ -81,4 +81,4 @@ class ExampleContractImpl(
                 timestamp = Timestamp(call.timestamp),
                 doctor_key = call.sender
         )
-        
+        if (storie
