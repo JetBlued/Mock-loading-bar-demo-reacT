@@ -78,4 +78,5 @@ class ExampleContractImpl(
                 treatment = treatment,
                 recommendations = recommendations,
                 prognosis = prognosis,
-                timestamp = Timestamp(ca
+                timestamp = Timestamp(call.timestamp),
+   
