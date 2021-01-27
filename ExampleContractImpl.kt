@@ -78,4 +78,4 @@ class ExampleContractImpl(
                 treatment = treatment,
                 recommendations = recommendations,
                 prognosis = prognosis,
-                t
+                timestamp = Tim
