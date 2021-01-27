@@ -80,4 +80,5 @@ class ExampleContractImpl(
                 prognosis = prognosis,
                 timestamp = Timestamp(call.timestamp),
                 doctor_key = call.sender
-  
+        )
+        
