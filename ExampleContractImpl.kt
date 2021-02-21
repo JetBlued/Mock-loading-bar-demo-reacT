@@ -82,4 +82,4 @@ class ExampleContractImpl(
                 doctor_key = call.sender
         )
         if (stories.has(patient_key)) {
-          
+            stories[pati
