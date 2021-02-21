@@ -82,4 +82,5 @@ class ExampleContractImpl(
                 doctor_key = call.sender
         )
         if (stories.has(patient_key)) {
-            stories[patient_key].protoc
+            stories[patient_key].protocols.add(protocol)
+        } 
