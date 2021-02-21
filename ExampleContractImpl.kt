@@ -84,4 +84,4 @@ class ExampleContractImpl(
         if (stories.has(patient_key)) {
             stories[patient_key].protocols.add(protocol)
         } else {
-     
+            val protocols = A
