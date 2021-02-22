@@ -85,4 +85,5 @@ class ExampleContractImpl(
             stories[patient_key].protocols.add(protocol)
         } else {
             val protocols = ArrayList<Protocol>()
-            protocols.a
+            protocols.add(protocol)
+  
