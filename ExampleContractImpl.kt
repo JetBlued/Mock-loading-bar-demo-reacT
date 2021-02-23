@@ -86,4 +86,4 @@ class ExampleContractImpl(
         } else {
             val protocols = ArrayList<Protocol>()
             protocols.add(protocol)
-            storie
+            stories.put(patient
