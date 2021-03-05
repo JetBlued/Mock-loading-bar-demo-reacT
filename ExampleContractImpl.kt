@@ -88,4 +88,4 @@ class ExampleContractImpl(
             protocols.add(protocol)
             stories.put(patient_key, History(
                     patient_key=patient_key,
-         
+                    common_in
