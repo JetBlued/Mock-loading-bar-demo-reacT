@@ -87,4 +87,4 @@ class ExampleContractImpl(
             val protocols = ArrayList<Protocol>()
             protocols.add(protocol)
             stories.put(patient_key, History(
-                 
+                    patient_key=patient
