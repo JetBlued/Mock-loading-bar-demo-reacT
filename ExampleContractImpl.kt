@@ -90,4 +90,5 @@ class ExampleContractImpl(
                     patient_key=patient_key,
                     common_info = "",
                     protocols = protocols,
-                    tests=ArrayList<Test>(
+                    tests=ArrayList<Test>(),
+                    p
