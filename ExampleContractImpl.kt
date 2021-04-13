@@ -93,4 +93,7 @@ class ExampleContractImpl(
                     tests=ArrayList<Test>(),
                     prescriptions = ArrayList<Prescription>()
             ))
-     
+        }
+    }
+
+    
