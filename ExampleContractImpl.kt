@@ -96,4 +96,4 @@ class ExampleContractImpl(
         }
     }
 
-    override fun addC
+    override fun addCommonInfo(com
