@@ -96,4 +96,5 @@ class ExampleContractImpl(
         }
     }
 
-    override fun addCommonInfo(common_info: String, patient_key: Str
+    override fun addCommonInfo(common_info: String, patient_key: String) {
+    
