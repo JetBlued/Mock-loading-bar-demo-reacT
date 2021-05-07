@@ -97,4 +97,5 @@ class ExampleContractImpl(
     }
 
     override fun addCommonInfo(common_info: String, patient_key: String) {
-        require(doctors.has(call.sender)
+        require(doctors.has(call.sender)) {
+            "ONL
