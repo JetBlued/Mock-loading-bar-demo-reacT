@@ -97,4 +97,4 @@ class ExampleContractImpl(
     }
 
     override fun addCommonInfo(common_info: String, patient_key: String) {
-        requir
+        require(doctors.ha
