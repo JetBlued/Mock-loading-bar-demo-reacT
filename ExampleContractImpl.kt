@@ -97,4 +97,4 @@ class ExampleContractImpl(
     }
 
     override fun addCommonInfo(common_info: String, patient_key: String) {
-        require(doctors.ha
+        require(doctors.has(call.sender)
