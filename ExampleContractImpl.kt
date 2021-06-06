@@ -100,4 +100,4 @@ class ExampleContractImpl(
         require(doctors.has(call.sender)) {
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
-        if (s
+        if (stories.has(patient_key
