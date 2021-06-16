@@ -101,4 +101,4 @@ class ExampleContractImpl(
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
         if (stories.has(patient_key)) {
-          
+            val patient = s
