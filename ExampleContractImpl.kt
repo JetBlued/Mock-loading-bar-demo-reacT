@@ -102,4 +102,5 @@ class ExampleContractImpl(
         }
         if (stories.has(patient_key)) {
             val patient = stories[patient_key]
-            stories.put(patient_key, Histo
+            stories.put(patient_key, History(
+                 
