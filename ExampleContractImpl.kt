@@ -104,4 +104,4 @@ class ExampleContractImpl(
             val patient = stories[patient_key]
             stories.put(patient_key, History(
                     patient_key=patient_key,
-                    comm
+                    common_info = comm
