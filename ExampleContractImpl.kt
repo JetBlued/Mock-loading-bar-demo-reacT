@@ -106,4 +106,4 @@ class ExampleContractImpl(
                     patient_key=patient_key,
                     common_info = common_info,
                     protocols = patient.protocols,
-                  
+                    tests=patient.t
