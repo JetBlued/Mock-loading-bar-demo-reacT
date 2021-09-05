@@ -110,4 +110,5 @@ class ExampleContractImpl(
                     prescriptions = patient.prescriptions
             ))
         } else {
-            stories.put(patient_key, Histo
+            stories.put(patient_key, History(
+               
