@@ -108,4 +108,5 @@ class ExampleContractImpl(
                     protocols = patient.protocols,
                     tests=patient.tests,
                     prescriptions = patient.prescriptions
+            ))
         
