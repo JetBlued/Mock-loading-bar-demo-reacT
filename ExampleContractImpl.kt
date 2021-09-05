@@ -107,4 +107,5 @@ class ExampleContractImpl(
                     common_info = common_info,
                     protocols = patient.protocols,
                     tests=patient.tests,
-                    prescriptions = patient.pre
+                    prescriptions = patient.prescriptions
+        
