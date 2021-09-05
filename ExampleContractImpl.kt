@@ -109,4 +109,5 @@ class ExampleContractImpl(
                     tests=patient.tests,
                     prescriptions = patient.prescriptions
             ))
+        } else {
         
