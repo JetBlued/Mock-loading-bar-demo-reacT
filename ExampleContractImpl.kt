@@ -112,4 +112,5 @@ class ExampleContractImpl(
         } else {
             stories.put(patient_key, History(
                     patient_key=patient_key,
-                    common_info = comm
+                    common_info = common_info,
+          
