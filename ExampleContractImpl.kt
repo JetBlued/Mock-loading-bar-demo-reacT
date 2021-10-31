@@ -120,4 +120,4 @@ class ExampleContractImpl(
         }
     }
 
-    override fun addTes
+    override fun addTest(name: String, 
