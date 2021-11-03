@@ -120,4 +120,4 @@ class ExampleContractImpl(
         }
     }
 
-    override fun addTest(name: String, indicator_n
+    override fun addTest(name: String, indicator_names: String,
