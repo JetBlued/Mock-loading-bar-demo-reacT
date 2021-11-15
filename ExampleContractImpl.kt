@@ -121,4 +121,5 @@ class ExampleContractImpl(
     }
 
     override fun addTest(name: String, indicator_names: String, results: String, comments: String, patient_key: String) {
-        require(doctors.has(call.
+        require(doctors.has(call.sender)) {
+      
