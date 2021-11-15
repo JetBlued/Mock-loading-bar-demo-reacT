@@ -122,4 +122,4 @@ class ExampleContractImpl(
 
     override fun addTest(name: String, indicator_names: String, results: String, comments: String, patient_key: String) {
         require(doctors.has(call.sender)) {
-            "ONLY_DO
+            "ONLY_DOCTOR_CAN_ADD_IN
