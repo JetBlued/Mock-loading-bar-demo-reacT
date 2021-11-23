@@ -124,4 +124,4 @@ class ExampleContractImpl(
         require(doctors.has(call.sender)) {
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
-        val indicator_names = indicator_names.spli
+        val indicator_names = indicator_names.split(", ").toTyp
