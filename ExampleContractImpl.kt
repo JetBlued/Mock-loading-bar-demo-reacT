@@ -125,4 +125,4 @@ class ExampleContractImpl(
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
         val indicator_names = indicator_names.split(", ").toTypedArray().toCollection(ArrayList())
-        val results = results.spl
+        val results = results.split(", ").toType
