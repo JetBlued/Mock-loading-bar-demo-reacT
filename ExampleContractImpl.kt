@@ -126,4 +126,4 @@ class ExampleContractImpl(
         }
         val indicator_names = indicator_names.split(", ").toTypedArray().toCollection(ArrayList())
         val results = results.split(", ").toTypedArray().toCollection(ArrayList())
-    
+        val comments = commen
