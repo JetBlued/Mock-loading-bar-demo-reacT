@@ -128,4 +128,4 @@ class ExampleContractImpl(
         val results = results.split(", ").toTypedArray().toCollection(ArrayList())
         val comments = comments.split(", ").toTypedArray().toCollection(ArrayList())
         require(indicator_names.size == results.size) {
-            "I
+            "INVALID_RESULTS_SI
