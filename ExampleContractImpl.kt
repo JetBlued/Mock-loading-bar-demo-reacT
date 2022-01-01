@@ -130,4 +130,5 @@ class ExampleContractImpl(
         require(indicator_names.size == results.size) {
             "INVALID_RESULTS_SIZE"
         }
-        require(indicator_names.size == comments.size) 
+        require(indicator_names.size == comments.size) {
+            "IN
