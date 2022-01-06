@@ -133,4 +133,5 @@ class ExampleContractImpl(
         require(indicator_names.size == comments.size) {
             "INVALID_RESULTS_SIZE"
         }
-        val test 
+        val test = Test(
+    
