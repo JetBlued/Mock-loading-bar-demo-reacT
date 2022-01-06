@@ -134,4 +134,4 @@ class ExampleContractImpl(
             "INVALID_RESULTS_SIZE"
         }
         val test = Test(
-    
+                na
