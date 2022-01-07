@@ -135,4 +135,4 @@ class ExampleContractImpl(
         }
         val test = Test(
                 name = name,
-                indic
+                indicator_names = indi
