@@ -136,4 +136,4 @@ class ExampleContractImpl(
         val test = Test(
                 name = name,
                 indicator_names = indicator_names,
-    
+                resu
