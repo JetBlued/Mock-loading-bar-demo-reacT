@@ -137,3 +137,4 @@ class ExampleContractImpl(
                 name = name,
                 indicator_names = indicator_names,
                 results = results,
+                comment
