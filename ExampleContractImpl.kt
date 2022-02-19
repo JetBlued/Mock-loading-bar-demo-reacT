@@ -138,4 +138,4 @@ class ExampleContractImpl(
                 indicator_names = indicator_names,
                 results = results,
                 comments = comments,
-    
+                times
