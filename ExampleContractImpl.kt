@@ -139,4 +139,5 @@ class ExampleContractImpl(
                 results = results,
                 comments = comments,
                 timestamp = Timestamp(call.timestamp)
-   
+        )
+      
