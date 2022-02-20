@@ -140,4 +140,5 @@ class ExampleContractImpl(
                 comments = comments,
                 timestamp = Timestamp(call.timestamp)
         )
-        if (stories.has(pati
+        if (stories.has(patient_key)) {
+         
