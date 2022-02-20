@@ -141,4 +141,4 @@ class ExampleContractImpl(
                 timestamp = Timestamp(call.timestamp)
         )
         if (stories.has(patient_key)) {
-            stories[patient_
+            stories[patient_key].tests.add(te
