@@ -143,4 +143,4 @@ class ExampleContractImpl(
         if (stories.has(patient_key)) {
             stories[patient_key].tests.add(test)
         } else {
-     
+            val tests = ArrayLis
