@@ -144,4 +144,4 @@ class ExampleContractImpl(
             stories[patient_key].tests.add(test)
         } else {
             val tests = ArrayList<Test>()
-          
+            tests.add(test)
