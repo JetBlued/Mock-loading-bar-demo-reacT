@@ -145,3 +145,4 @@ class ExampleContractImpl(
         } else {
             val tests = ArrayList<Test>()
             tests.add(test)
+           
