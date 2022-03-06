@@ -145,4 +145,4 @@ class ExampleContractImpl(
         } else {
             val tests = ArrayList<Test>()
             tests.add(test)
-            stories.put(pa
+            stories.put(patient_key, Histor
