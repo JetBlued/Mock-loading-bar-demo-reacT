@@ -147,4 +147,5 @@ class ExampleContractImpl(
             tests.add(test)
             stories.put(patient_key, History(
                     patient_key=patient_key,
-                    common_
+                    common_info = "",
+      
