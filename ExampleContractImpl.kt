@@ -148,4 +148,4 @@ class ExampleContractImpl(
             stories.put(patient_key, History(
                     patient_key=patient_key,
                     common_info = "",
-                    protocols = ArrayList
+                    protocols = ArrayList<Protocol>(),
