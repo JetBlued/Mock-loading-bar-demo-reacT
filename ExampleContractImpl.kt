@@ -151,4 +151,5 @@ class ExampleContractImpl(
                     protocols = ArrayList<Protocol>(),
                     tests=tests,
                     prescriptions = ArrayList<Prescription>()
-           
+            ))
+        }
