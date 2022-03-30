@@ -150,4 +150,5 @@ class ExampleContractImpl(
                     common_info = "",
                     protocols = ArrayList<Protocol>(),
                     tests=tests,
-                    prescriptions = ArrayList<P
+                    prescriptions = ArrayList<Prescription>()
+           
