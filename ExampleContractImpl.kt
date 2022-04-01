@@ -155,4 +155,4 @@ class ExampleContractImpl(
         }
     }
 
-    override fun addPrescript
+    override fun addPrescription(name: String
