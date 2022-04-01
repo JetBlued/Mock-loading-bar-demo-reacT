@@ -155,4 +155,4 @@ class ExampleContractImpl(
         }
     }
 
-    override fun addPrescription(name: String
+    override fun addPrescription(name: String, end_timestamp: Lo
