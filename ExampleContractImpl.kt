@@ -156,4 +156,4 @@ class ExampleContractImpl(
     }
 
     override fun addPrescription(name: String, end_timestamp: Long, drug_name: String, patient_key: String) {
-        require((doctors.has(c
+        require((doctors.has(call.sender)) and
