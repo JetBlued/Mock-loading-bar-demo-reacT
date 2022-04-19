@@ -159,4 +159,5 @@ class ExampleContractImpl(
         require((doctors.has(call.sender)) and (doctors[call.sender].license==true)) {
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
-        require(!drugs_forbidden.h
+        require(!drugs_forbidden.has(drug_name)) {
+           
