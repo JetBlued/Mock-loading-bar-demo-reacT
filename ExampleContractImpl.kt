@@ -160,4 +160,6 @@ class ExampleContractImpl(
             "ONLY_DOCTOR_CAN_ADD_INFORMATION"
         }
         require(!drugs_forbidden.has(drug_name)) {
-            "THIS_DRUG_IS_FORBIDDEN_BY_
+            "THIS_DRUG_IS_FORBIDDEN_BY_REGULATOR"
+        }
+ 
