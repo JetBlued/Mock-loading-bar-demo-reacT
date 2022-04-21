@@ -162,4 +162,4 @@ class ExampleContractImpl(
         require(!drugs_forbidden.has(drug_name)) {
             "THIS_DRUG_IS_FORBIDDEN_BY_REGULATOR"
         }
-        val prescrip
+        val prescription = Pr
