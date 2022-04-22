@@ -163,4 +163,4 @@ class ExampleContractImpl(
             "THIS_DRUG_IS_FORBIDDEN_BY_REGULATOR"
         }
         val prescription = Prescription(
-                docto
+                doctor_key = call.sender
