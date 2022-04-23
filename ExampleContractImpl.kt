@@ -164,4 +164,5 @@ class ExampleContractImpl(
         }
         val prescription = Prescription(
                 doctor_key = call.sender,
-                name
+                name = name,
+     
