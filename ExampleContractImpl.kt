@@ -165,4 +165,4 @@ class ExampleContractImpl(
         val prescription = Prescription(
                 doctor_key = call.sender,
                 name = name,
-                start_timestamp = Times
+                start_timestamp = Timestamp(call.timestamp),
