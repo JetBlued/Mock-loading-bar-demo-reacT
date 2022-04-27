@@ -166,4 +166,4 @@ class ExampleContractImpl(
                 doctor_key = call.sender,
                 name = name,
                 start_timestamp = Timestamp(call.timestamp),
-                end_timestamp = Ti
+                end_timestamp = Timestamp(end_t
