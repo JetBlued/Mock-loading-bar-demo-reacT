@@ -168,4 +168,5 @@ class ExampleContractImpl(
                 start_timestamp = Timestamp(call.timestamp),
                 end_timestamp = Timestamp(end_timestamp),
                 drug_name = drug_name
-     
+        )
+        if (s
