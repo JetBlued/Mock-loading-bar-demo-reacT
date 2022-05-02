@@ -169,4 +169,4 @@ class ExampleContractImpl(
                 end_timestamp = Timestamp(end_timestamp),
                 drug_name = drug_name
         )
-        if (s
+        if (stories.has(patien
