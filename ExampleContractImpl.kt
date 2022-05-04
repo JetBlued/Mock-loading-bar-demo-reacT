@@ -170,4 +170,4 @@ class ExampleContractImpl(
                 drug_name = drug_name
         )
         if (stories.has(patient_key)) {
-   
+            storie
