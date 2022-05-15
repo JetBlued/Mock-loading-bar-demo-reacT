@@ -173,4 +173,4 @@ class ExampleContractImpl(
             stories[patient_key].prescriptions.add(prescription)
         } else {
             val prescriptions = ArrayList<Prescription>()
-            pres
+            prescriptions.ad
