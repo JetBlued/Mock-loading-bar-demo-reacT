@@ -172,4 +172,4 @@ class ExampleContractImpl(
         if (stories.has(patient_key)) {
             stories[patient_key].prescriptions.add(prescription)
         } else {
-            val prescriptions = ArrayList
+            val prescriptions = ArrayList<Prescription>()
