@@ -174,4 +174,4 @@ class ExampleContractImpl(
         } else {
             val prescriptions = ArrayList<Prescription>()
             prescriptions.add(prescription)
-            storie
+            stories.put(patient_
