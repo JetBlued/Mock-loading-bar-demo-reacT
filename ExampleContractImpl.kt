@@ -175,4 +175,5 @@ class ExampleContractImpl(
             val prescriptions = ArrayList<Prescription>()
             prescriptions.add(prescription)
             stories.put(patient_key, History(
-                    patient_key=patie
+                    patient_key=patient_key,
+          
