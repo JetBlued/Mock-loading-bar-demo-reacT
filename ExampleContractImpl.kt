@@ -184,4 +184,4 @@ class ExampleContractImpl(
         }
     }
 
-    ove
+    override fun chec
