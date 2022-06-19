@@ -184,4 +184,4 @@ class ExampleContractImpl(
         }
     }
 
-    override fun checkPrescription(p
+    override fun checkPrescription(patient_key
