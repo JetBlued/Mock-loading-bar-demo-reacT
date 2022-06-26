@@ -185,4 +185,5 @@ class ExampleContractImpl(
     }
 
     override fun checkPrescription(patient_key: String, drug_name: String) {
-        require(stories.has(
+        require(stories.has(patient_key)) {
+            "
