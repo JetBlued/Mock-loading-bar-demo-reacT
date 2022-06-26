@@ -184,4 +184,5 @@ class ExampleContractImpl(
         }
     }
 
-    override fun checkPrescription(patient_key: String, drug_name: Str
+    override fun checkPrescription(patient_key: String, drug_name: String) {
+        require
