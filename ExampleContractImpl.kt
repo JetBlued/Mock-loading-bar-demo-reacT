@@ -188,4 +188,5 @@ class ExampleContractImpl(
         require(stories.has(patient_key)) {
             "NO_PATIENT_HISTORY"
         }
-        require(!drugs_forbidden.has(dr
+        require(!drugs_forbidden.has(drug_name)) {
+          
