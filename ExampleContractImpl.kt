@@ -192,4 +192,5 @@ class ExampleContractImpl(
             "THIS_DRUG_IF_FORBIDDEN_BY_REGULATOR"
         }
         val prescriptions = stories[patient_key].prescriptions
+        var count = 0
        
