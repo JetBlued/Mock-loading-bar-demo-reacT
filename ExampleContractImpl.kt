@@ -193,4 +193,4 @@ class ExampleContractImpl(
         }
         val prescriptions = stories[patient_key].prescriptions
         var count = 0
-       
+        for (prescript 
