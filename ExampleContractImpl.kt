@@ -194,4 +194,5 @@ class ExampleContractImpl(
         val prescriptions = stories[patient_key].prescriptions
         var count = 0
         for (prescript in prescriptions) {
-            if ((prescript.drug_name == drug_
+            if ((prescript.drug_name == drug_name) and
+           
