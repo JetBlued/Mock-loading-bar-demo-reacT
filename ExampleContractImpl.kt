@@ -195,4 +195,4 @@ class ExampleContractImpl(
         var count = 0
         for (prescript in prescriptions) {
             if ((prescript.drug_name == drug_name) and
-           
+                    (Times
