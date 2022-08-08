@@ -195,4 +195,5 @@ class ExampleContractImpl(
         var count = 0
         for (prescript in prescriptions) {
             if ((prescript.drug_name == drug_name) and
-                    (Timestamp(call.timestamp) > prescript.s
+                    (Timestamp(call.timestamp) > prescript.start_timestamp) and
+  
