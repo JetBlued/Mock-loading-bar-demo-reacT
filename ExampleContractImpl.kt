@@ -196,4 +196,4 @@ class ExampleContractImpl(
         for (prescript in prescriptions) {
             if ((prescript.drug_name == drug_name) and
                     (Timestamp(call.timestamp) > prescript.start_timestamp) and
-                    (Timestamp(call.timestamp) <prescript.end_
+                    (Timestamp(call.timestamp) <prescript.end_timestamp
