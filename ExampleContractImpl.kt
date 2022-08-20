@@ -197,4 +197,5 @@ class ExampleContractImpl(
             if ((prescript.drug_name == drug_name) and
                     (Timestamp(call.timestamp) > prescript.start_timestamp) and
                     (Timestamp(call.timestamp) <prescript.end_timestamp) and
-                    (doctors.has(p
+                    (doctors.has(prescript.doctor_key)) and
+   
