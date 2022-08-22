@@ -198,4 +198,5 @@ class ExampleContractImpl(
                     (Timestamp(call.timestamp) > prescript.start_timestamp) and
                     (Timestamp(call.timestamp) <prescript.end_timestamp) and
                     (doctors.has(prescript.doctor_key)) and
-                    (doctors[prescript.doctor_key].licens
+                    (doctors[prescript.doctor_key].license != false)) {
+      
