@@ -201,3 +201,5 @@ class ExampleContractImpl(
                     (doctors[prescript.doctor_key].license != false)) {
                 count += 1
             }
+        }
+  
