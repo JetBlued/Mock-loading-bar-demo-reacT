@@ -203,4 +203,8 @@ class ExampleContractImpl(
             }
         }
         require(count != 0) {
-            "PATIENT_HAS_NO_SUITABLE_PRESCRIP
+            "PATIENT_HAS_NO_SUITABLE_PRESCRIPTS"
+        }
+    }
+
+   
