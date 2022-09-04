@@ -203,4 +203,4 @@ class ExampleContractImpl(
             }
         }
         require(count != 0) {
-            "PATIENT_H
+            "PATIENT_HAS_NO_SUITABLE_PRESCRIP
