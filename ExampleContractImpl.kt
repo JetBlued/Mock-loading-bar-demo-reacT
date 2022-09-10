@@ -207,4 +207,4 @@ class ExampleContractImpl(
         }
     }
 
-   
+    override fun disable
