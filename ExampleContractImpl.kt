@@ -207,4 +207,5 @@ class ExampleContractImpl(
         }
     }
 
-    override fun disableLicense(type: String, value: Boolean, ke
+    override fun disableLicense(type: String, value: Boolean, key: String) {
+        req
