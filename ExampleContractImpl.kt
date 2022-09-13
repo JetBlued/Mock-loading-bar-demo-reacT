@@ -208,4 +208,4 @@ class ExampleContractImpl(
     }
 
     override fun disableLicense(type: String, value: Boolean, key: String) {
-        require(call.call
+        require(call.caller == "3QVUnXdCq7vMJDjfc
