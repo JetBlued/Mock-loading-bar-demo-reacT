@@ -209,4 +209,5 @@ class ExampleContractImpl(
 
     override fun disableLicense(type: String, value: Boolean, key: String) {
         require(call.caller == "3QVUnXdCq7vMJDjfcuM7G5qCqFKeBQuac8P") {
-          
+            "YOU_ARE_NOT_REGULATOR"
+  
