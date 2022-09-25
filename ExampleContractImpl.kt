@@ -211,4 +211,4 @@ class ExampleContractImpl(
         require(call.caller == "3QVUnXdCq7vMJDjfcuM7G5qCqFKeBQuac8P") {
             "YOU_ARE_NOT_REGULATOR"
         }
-        require(type in arrayListOf<String>("drug", "doctor", "
+        require(type in arrayListOf<String>("drug", "doctor", "pharmacy")
