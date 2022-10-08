@@ -212,4 +212,6 @@ class ExampleContractImpl(
             "YOU_ARE_NOT_REGULATOR"
         }
         require(type in arrayListOf<String>("drug", "doctor", "pharmacy")) {
-            "INVALID_TYPE
+            "INVALID_TYPE"
+        }
+   
