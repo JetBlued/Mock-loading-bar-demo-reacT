@@ -214,4 +214,4 @@ class ExampleContractImpl(
         require(type in arrayListOf<String>("drug", "doctor", "pharmacy")) {
             "INVALID_TYPE"
         }
-   
+        if (type ==
