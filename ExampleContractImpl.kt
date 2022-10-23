@@ -215,4 +215,6 @@ class ExampleContractImpl(
             "INVALID_TYPE"
         }
         if (type == "drug") {
-            drugs_forbidden.put(key, false
+            drugs_forbidden.put(key, false)
+        }
+      
