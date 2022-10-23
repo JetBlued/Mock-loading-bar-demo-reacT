@@ -217,4 +217,4 @@ class ExampleContractImpl(
         if (type == "drug") {
             drugs_forbidden.put(key, false)
         }
-      
+        if (type == "doc
