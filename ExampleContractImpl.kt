@@ -218,4 +218,5 @@ class ExampleContractImpl(
             drugs_forbidden.put(key, false)
         }
         if (type == "doctor") {
-            require(doctors.has(k
+            require(doctors.has(key)) {
+    
