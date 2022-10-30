@@ -219,4 +219,4 @@ class ExampleContractImpl(
         }
         if (type == "doctor") {
             require(doctors.has(key)) {
-    
+                "DOCTO
