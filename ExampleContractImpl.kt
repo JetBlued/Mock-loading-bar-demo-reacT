@@ -220,4 +220,5 @@ class ExampleContractImpl(
         if (type == "doctor") {
             require(doctors.has(key)) {
                 "DOCTOR_KEY_DOES_NOT_EXIST"
- 
+            }
+  
