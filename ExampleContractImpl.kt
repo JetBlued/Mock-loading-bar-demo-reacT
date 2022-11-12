@@ -222,4 +222,4 @@ class ExampleContractImpl(
                 "DOCTOR_KEY_DOES_NOT_EXIST"
             }
             val doctor = doctors[key]
-            doctors.put(key
+            doctors.put(key, Doctor(doctor_ke
