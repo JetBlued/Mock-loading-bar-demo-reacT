@@ -221,4 +221,5 @@ class ExampleContractImpl(
             require(doctors.has(key)) {
                 "DOCTOR_KEY_DOES_NOT_EXIST"
             }
-            val doctor = doct
+            val doctor = doctors[key]
+         
