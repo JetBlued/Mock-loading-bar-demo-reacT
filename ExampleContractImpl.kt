@@ -224,4 +224,4 @@ class ExampleContractImpl(
             val doctor = doctors[key]
             doctors.put(key, Doctor(doctor_key = doctor.doctor_key, information = doctor.information, license = false))
         }
-        if 
+        if (type == "pharmacy") 
