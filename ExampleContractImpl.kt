@@ -226,4 +226,4 @@ class ExampleContractImpl(
         }
         if (type == "pharmacy") {
             require(pharmacies.has(key)) {
-             
+                "PHARMACY_KE
