@@ -226,4 +226,5 @@ class ExampleContractImpl(
         }
         if (type == "pharmacy") {
             require(pharmacies.has(key)) {
-                "PHARMACY_KEY_DOES_NOT_EXI
+                "PHARMACY_KEY_DOES_NOT_EXIST"
+            }
