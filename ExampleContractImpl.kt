@@ -225,4 +225,5 @@ class ExampleContractImpl(
             doctors.put(key, Doctor(doctor_key = doctor.doctor_key, information = doctor.information, license = false))
         }
         if (type == "pharmacy") {
-            require(pharmacies.has(
+            require(pharmacies.has(key)) {
+             
