@@ -228,4 +228,4 @@ class ExampleContractImpl(
             require(pharmacies.has(key)) {
                 "PHARMACY_KEY_DOES_NOT_EXIST"
             }
-            val pharmacy =
+            val pharmacy =pharmacies[key]
