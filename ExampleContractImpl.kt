@@ -229,4 +229,4 @@ class ExampleContractImpl(
                 "PHARMACY_KEY_DOES_NOT_EXIST"
             }
             val pharmacy =pharmacies[key]
-            pharmacies.put(ke
+            pharmacies.put(key, Pharmacy(pharmacy
