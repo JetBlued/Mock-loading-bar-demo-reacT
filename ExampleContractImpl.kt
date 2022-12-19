@@ -233,4 +233,4 @@ class ExampleContractImpl(
         }
     }
 }
-data c
+data class Protoc
