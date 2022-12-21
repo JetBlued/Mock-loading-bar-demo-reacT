@@ -233,4 +233,5 @@ class ExampleContractImpl(
         }
     }
 }
-data class Protoc
+data class Protocol (
+        val do
