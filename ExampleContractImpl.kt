@@ -234,4 +234,4 @@ class ExampleContractImpl(
     }
 }
 data class Protocol (
-        val do
+        val doctor_key: String,
