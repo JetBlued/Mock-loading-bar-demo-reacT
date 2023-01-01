@@ -237,4 +237,4 @@ data class Protocol (
         val doctor_key: String,
         val diagnosis: String,
         val complaints: String,
-        val ana
+        val anamnesis: String,
