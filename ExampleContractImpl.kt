@@ -238,4 +238,5 @@ data class Protocol (
         val diagnosis: String,
         val complaints: String,
         val anamnesis: String,
-        val treatme
+        val treatment: String,
+   
