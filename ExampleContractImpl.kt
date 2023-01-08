@@ -239,4 +239,5 @@ data class Protocol (
         val complaints: String,
         val anamnesis: String,
         val treatment: String,
-        val recommendati
+        val recommendations: String,
+        
