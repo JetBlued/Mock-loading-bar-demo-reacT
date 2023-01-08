@@ -241,4 +241,4 @@ data class Protocol (
         val treatment: String,
         val recommendations: String,
         val prognosis: String,
-        val t
+        val timestamp: Times
