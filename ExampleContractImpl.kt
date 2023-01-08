@@ -240,4 +240,5 @@ data class Protocol (
         val anamnesis: String,
         val treatment: String,
         val recommendations: String,
-        val prognosis: Strin
+        val prognosis: String,
+        val t
