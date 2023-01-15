@@ -245,4 +245,5 @@ data class Protocol (
         )
 
 data class Test (
-        val name: String
+        val name: String,
+        val indic
