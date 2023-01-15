@@ -243,3 +243,5 @@ data class Protocol (
         val prognosis: String,
         val timestamp: Timestamp
         )
+
+data class T
