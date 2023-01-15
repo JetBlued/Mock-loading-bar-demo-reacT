@@ -245,4 +245,4 @@ data class Protocol (
         )
 
 data class Test (
-       
+        val name: String
