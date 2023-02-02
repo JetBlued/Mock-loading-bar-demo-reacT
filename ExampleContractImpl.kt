@@ -247,4 +247,4 @@ data class Protocol (
 data class Test (
         val name: String,
         val indicator_names: ArrayList<String>,
-        va
+        val results: Array
