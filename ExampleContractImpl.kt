@@ -248,4 +248,4 @@ data class Test (
         val name: String,
         val indicator_names: ArrayList<String>,
         val results: ArrayList<String>,
- 
+        val comments
