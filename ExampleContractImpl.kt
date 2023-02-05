@@ -249,4 +249,7 @@ data class Test (
         val indicator_names: ArrayList<String>,
         val results: ArrayList<String>,
         val comments: ArrayList<String>,
-        val times
+        val timestamp: Timestamp
+)
+
+dat
