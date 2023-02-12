@@ -253,4 +253,4 @@ data class Test (
 )
 
 data class Drug (
-     
+        val name: 
