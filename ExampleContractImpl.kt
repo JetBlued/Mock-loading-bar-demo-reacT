@@ -254,4 +254,4 @@ data class Test (
 
 data class Drug (
         val name: String,
-        va
+        val information: 
