@@ -255,4 +255,4 @@ data class Test (
 data class Drug (
         val name: String,
         val information: String,
-        
+        val license: Boo
