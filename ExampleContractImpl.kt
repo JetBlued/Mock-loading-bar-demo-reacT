@@ -258,4 +258,5 @@ data class Drug (
         val license: Boolean
 )
 
-data class Presc
+data class Prescription (
+   
