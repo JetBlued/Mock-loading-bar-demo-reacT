@@ -259,4 +259,5 @@ data class Drug (
 )
 
 data class Prescription (
-        val doctor_ke
+        val doctor_key: String,
+     
