@@ -260,4 +260,5 @@ data class Drug (
 
 data class Prescription (
         val doctor_key: String,
-        val name: Strin
+        val name: String,
+        val start_time
