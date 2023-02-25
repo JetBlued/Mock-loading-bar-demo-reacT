@@ -263,4 +263,4 @@ data class Prescription (
         val name: String,
         val start_timestamp: Timestamp,
         val end_timestamp: Timestamp,
-        v
+        val drug_name: String
