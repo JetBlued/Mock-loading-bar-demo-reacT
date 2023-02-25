@@ -262,4 +262,4 @@ data class Prescription (
         val doctor_key: String,
         val name: String,
         val start_timestamp: Timestamp,
-        val 
+        val end_timestamp: T
