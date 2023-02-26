@@ -264,3 +264,7 @@ data class Prescription (
         val start_timestamp: Timestamp,
         val end_timestamp: Timestamp,
         val drug_name: String
+)
+
+
+data class Histor
