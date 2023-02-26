@@ -267,4 +267,5 @@ data class Prescription (
 )
 
 
-data class Histor
+data class History (
+        val patie
