@@ -269,4 +269,4 @@ data class Prescription (
 
 data class History (
         val patient_key: String,
-        val 
+        val common_info: St
