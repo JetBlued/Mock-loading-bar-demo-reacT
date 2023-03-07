@@ -270,4 +270,5 @@ data class Prescription (
 data class History (
         val patient_key: String,
         val common_info: String,
-        val protocols: ArrayList<Proto
+        val protocols: ArrayList<Protocol>,
+        val 
