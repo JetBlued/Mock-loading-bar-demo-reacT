@@ -271,4 +271,5 @@ data class History (
         val patient_key: String,
         val common_info: String,
         val protocols: ArrayList<Protocol>,
-        val tests: ArrayList<Test>
+        val tests: ArrayList<Test>,
+        val prescrip
