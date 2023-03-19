@@ -275,4 +275,5 @@ data class History (
         val prescriptions: ArrayList<Prescription>
 )
 
-data class 
+data class Doctor(
+        val
