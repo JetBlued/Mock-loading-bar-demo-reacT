@@ -272,4 +272,4 @@ data class History (
         val common_info: String,
         val protocols: ArrayList<Protocol>,
         val tests: ArrayList<Test>,
-        val prescriptions: Ar
+        val prescriptions: ArrayList<Presc
