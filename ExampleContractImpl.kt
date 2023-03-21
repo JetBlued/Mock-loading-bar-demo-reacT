@@ -276,4 +276,5 @@ data class History (
 )
 
 data class Doctor(
-        val doctor_key: St
+        val doctor_key: String,
+      
