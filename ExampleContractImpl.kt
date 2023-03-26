@@ -278,4 +278,7 @@ data class History (
 data class Doctor(
         val doctor_key: String,
         val information: String,
-        val license: Boole
+        val license: Boolean
+)
+
+data 
