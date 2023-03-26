@@ -281,4 +281,5 @@ data class Doctor(
         val license: Boolean
 )
 
-data 
+data class Pharmacy (
+  
