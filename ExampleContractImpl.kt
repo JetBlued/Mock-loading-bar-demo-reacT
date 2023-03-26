@@ -282,4 +282,4 @@ data class Doctor(
 )
 
 data class Pharmacy (
-  
+        val pharm
