@@ -282,4 +282,5 @@ data class Doctor(
 )
 
 data class Pharmacy (
-        val pharmacy_key: Stri
+        val pharmacy_key: String,
+        val
