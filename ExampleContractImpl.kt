@@ -284,4 +284,4 @@ data class Doctor(
 data class Pharmacy (
         val pharmacy_key: String,
         val drug_list: ArrayList<String>,
-        val 
+        val star_license: Timest
