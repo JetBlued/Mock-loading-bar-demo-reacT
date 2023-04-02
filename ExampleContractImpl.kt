@@ -285,4 +285,4 @@ data class Pharmacy (
         val pharmacy_key: String,
         val drug_list: ArrayList<String>,
         val star_license: Timestamp,
-        val end_license: 
+        val end_license: Timestamp?
